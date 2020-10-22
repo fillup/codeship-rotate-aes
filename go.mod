@@ -32,5 +32,3 @@ require (
 	mvdan.cc/gofumpt v0.0.0-20200927160801-5bfeb2e70dd6 // indirect
 	mvdan.cc/unparam v0.0.0-20200501210554-b37ab49443f7 // indirect
 )
-
-replace github.com/golangci/golangci-lint v1.16.1-0.20190402065613-de1d1ad903cd => github.com/golangci/golangci-lint v1.31.0

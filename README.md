@@ -97,13 +97,6 @@ URLs generated using a template, they may not be right depending on your branch 
  3. Run `docker-compose run rotate`
  4. That'll create the base `config.json` file. Update it.
  5. Run `docker-compose run rotate`
- 
-## Note about codeship-go library
-The official Codeship Go client library was missing support for the Reset AES Key endpoint so I've added it in a fork
-and am PRing it back to the main repo. You can review it here: https://github.com/codeship/codeship-go/pull/59.
-
-Also there were some Go module version errors that required a couple "replace"
-statements in the go.mod file to get them to work properly. 
 
 ## MIT License
 
